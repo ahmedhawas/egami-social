@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import UserProfileViewContainer from './modules/userProfile/UserProfileViewContainer'
+import UserFeedPhotosViewContainer from './modules/userFeedPhotos/UserFeedPhotosViewContainer'
+import PopularFeedPhotosViewContainer from './modules/popularFeedPhotos/PopularFeedPhotosViewContainer'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      </div>
-    )
-  }
+export default function App() {
+  return (
+    <div className="App">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <UserProfileViewContainer />
+      <UserFeedPhotosViewContainer />
+      <PopularFeedPhotosViewContainer />
+    </div>
+  )
 }
-
-export default App

@@ -10,15 +10,22 @@
     "eslint-plugin-react": "^6.9.0",
     "mocha": "^3.2.0",
     "react-scripts": "0.8.5",
+    "redux-mock-store": "^1.2.2",
     "should": "^11.2.0"
   },
   "dependencies": {
+    "axios": "^0.15.3",
+    "immutable": "^3.8.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-functional": "^2.0.0",
     "react-redux": "^5.0.2",
+    "react-touch-events": "^2.0.0",
+    "react-truncate": "^2.0.5",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "reselect": "^2.5.4"
+    "reselect": "^2.5.4",
+    "sinon": "^1.17.7"
   },
   "scripts": {
     "start": "react-scripts start",
